@@ -27,7 +27,7 @@
   <body>
 
 <div id="header">
-	<h2 class="maintitle">  <a href="{% url 'home' %}" style="color:white">포트폴리오</a></h2>
+	<h2 class="maintitle">  <a href="{% url 'home' %}" style="color:white">Amazing의 Amazing한 Portfolio</a></h2>
     {% if user.is_active %}
     <h4 class="welcome">어서오세요.
                 <strong>{% firstof user.get_short_name user.get_username %}</strong>
