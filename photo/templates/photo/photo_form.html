@@ -8,7 +8,7 @@
 {% block content %}
 <div id="content">
 
-    <h1>사진 추가/업데이트 - {{user}}</h1>
+    <h1>작업물 추가/업데이트 - {{user}}</h1>
 
     {% if form.is_multipart %}
     <form enctype="multipart/form-data" method="post" action=".">
@@ -21,7 +21,7 @@
     <p class="errornote">잘못되었습니다! 아래 오류를 수정하십시오.</p>
     {% endif %}
 
-    <p>사진의 작성 또는 업데이트 양식입니다.</p>
+    <p>작업물의  작성 또는 업데이트 양식입니다.</p>
 
     <fieldset class="aligned">
 
@@ -31,7 +31,7 @@
 
         <div class="form-row">
             {{ form.album.label_tag }} {{ form.album }}
-            <button type="button"><a href="{% url 'photo:album_add' %}">앨범 추가</a></button>
+            <button type="button"><a href="{% url 'photo:album_add' %}">작업 추가</a></button>
         </div>
 
         <div class="form-row">

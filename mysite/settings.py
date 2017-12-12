@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'photo.apps.PhotoConfig',
     'polls',
-    'db_test',
 ]
 
 DISQUS_WEBSITE_SHORTNAME = 'pythonwebprogramming'
@@ -116,7 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ko'
 #LANGUAGE_CODE = 'ko-kr'
 
 #TIME_ZONE = 'UTC'
