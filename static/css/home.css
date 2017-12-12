@@ -10,7 +10,7 @@ div#homeimg {
     background: #34364a;
     text-align: center;
     position: relative;
-    top:-10px;
+    /*top:-10px;*/
 
 }
 div#homeimg img{
